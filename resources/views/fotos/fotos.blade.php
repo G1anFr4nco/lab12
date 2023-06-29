@@ -37,7 +37,7 @@
                 @foreach($fotos as $foto)
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="200" src="/foto/{{$foto->ruta}}" alt="Imagen">
+                        <img src="/foto/{{$foto->ruta}}" alt="Imagen">
                         <div class="card-body">
                             <p class="card-text">{{$foto->descripcion}}</p>
                             <div class="d-flex justify-content-between align-items-center">
